@@ -1299,6 +1299,55 @@ div .line img {
 
 } */
 
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .column-2 {
+      background: url(../img/image2.png) no-repeat center center/cover;
+      height: 138.5vh !important;
+    }
+  
+    .mid-section {
+      margin-top: -27.4rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+
+}
+
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 889px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .column-2 {
+      background: url(../img/image2.png) no-repeat center center/cover;
+      height: 20vh !important;
+    }
+  
+    
+
+}
+
+
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+      .column-2 {
+          background: url(../img/image2.png) no-repeat center center/cover;
+          height: 120.5vh !important;
+      }
+      .mid-section {
+        margin-top: -27.4rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+} */
+
+
+
 /* tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 
